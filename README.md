@@ -6,3 +6,4 @@
 * Pytest.xdist - for parallel execution
 * Openpyxl
 * Allure-pytest
+* 
