@@ -1,9 +1,9 @@
 import pytest
 
-from HybridPythonFW.pages.DashboardPage import DashboardPage
-from HybridPythonFW.pages.LoginPage import LoginPage
-from HybridPythonFW.pages.OrderPage import OrderPage
-from HybridPythonFW.testdata import TestData
+from OpenCartPython.pageObjects.DashboardPage import DashboardPage
+from OpenCartPython.pageObjects.LoginPage import LoginPage
+from OpenCartPython.pageObjects.OrderPage import OrderPage
+from OpenCartPython.TestData import TestData
 
 
 @pytest.mark.usefixtures("initiate_browser")

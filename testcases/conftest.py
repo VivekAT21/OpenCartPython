@@ -4,7 +4,7 @@ from selenium.webdriver.common.devtools.v85 import headless_experimental
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.chrome.options import Options
-from HybridPythonFW.configfiles.config import config_constants
+from OpenCartPython.configfiles.config import config_constants
 
 
 @pytest.fixture(scope="function", params=["chrome"])
