@@ -1,4 +1,4 @@
-from HybridPythonFW.pages.BasePage import BasePage
+from OpenCartPython.pageObjects.BasePage import BasePage
 
 
 class OrderPage(BasePage):

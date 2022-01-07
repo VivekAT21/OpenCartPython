@@ -1,7 +1,7 @@
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.wait import WebDriverWait
-from HybridPythonFW.configfiles import config
+from OpenCartPython.configfiles import config
 
 
 class BasePage:

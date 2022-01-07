@@ -1,6 +1,6 @@
-from HybridPythonFW.pages.BasePage import BasePage
-from HybridPythonFW.configfiles.Locators import Locators
-from HybridPythonFW.pages.DashboardPage import DashboardPage
+from OpenCartPython.pageObjects.BasePage import BasePage
+from OpenCartPython.configfiles.Locators import Locators
+from OpenCartPython.pageObjects.DashboardPage import DashboardPage
 
 
 class LoginPage(BasePage):

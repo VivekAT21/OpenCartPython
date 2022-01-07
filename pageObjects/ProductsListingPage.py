@@ -1,6 +1,6 @@
-from HybridPythonFW.configfiles.Locators import Locators
-from HybridPythonFW.pages.AddProductPage import AddProductPage
-from HybridPythonFW.pages.BasePage import BasePage
+from OpenCartPython.configfiles.Locators import Locators
+from OpenCartPython.pageObjects.AddProductPage import AddProductPage
+from OpenCartPython.pageObjects.BasePage import BasePage
 
 
 class ProductsListingPage(BasePage):

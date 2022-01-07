@@ -1,7 +1,7 @@
-from HybridPythonFW.configfiles.Locators import Locators
-from HybridPythonFW.pages.BasePage import BasePage
-from HybridPythonFW.pages.OrderPage import OrderPage
-from HybridPythonFW.pages.ProductsListingPage import ProductsListingPage
+from OpenCartPython.configfiles.Locators import Locators
+from OpenCartPython.pageObjects.BasePage import BasePage
+from OpenCartPython.pageObjects.OrderPage import OrderPage
+from OpenCartPython.pageObjects.ProductsListingPage import ProductsListingPage
 
 
 class DashboardPage(BasePage):
