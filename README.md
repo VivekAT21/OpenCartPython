@@ -6,4 +6,7 @@
 * Pytest.xdist - for parallel execution
 * Openpyxl
 * Allure-pytest
-* 
+
+## Architecture
+* pageObjects (package)
+* utilities (package)
