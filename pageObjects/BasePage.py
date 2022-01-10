@@ -3,7 +3,6 @@ from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.wait import WebDriverWait
 from OpenCartPython.configfiles import config
 
-
 class BasePage:
     const = config.config_constants()
     dur = const.WAIT_DURATION

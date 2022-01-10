@@ -10,7 +10,7 @@ class LoginPage(BasePage):
     admin_email = locators.ADMIN_EMAIL_INPUT
     admin_pwd = locators.ADMIN_PWD_INPUT
     admin_login = locators.ADMIN_LOGIN_BTN
-
+ 
     # Constructor of the page class
     def __int__(self, driver):
         super().__init__(driver)
